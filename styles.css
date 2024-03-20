@@ -74,6 +74,7 @@ button {
     color: #E5E7EB;
     padding: 8px 20px;
     border-radius: 4px;
+    font-weight: 700;
 }
 
 .placeholder {
@@ -105,6 +106,7 @@ button {
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 8px;
+    margin-bottom: 8px;
 }
 
 .container {
@@ -137,4 +139,38 @@ button {
     font-size: 20px;
     align-self: center;
     margin-left: 550px;
+}
+
+.box {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    height: 100px;
+    width: 950px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.fs-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box button {
+    border: 1.8px solid white;
+}
+
+.fourth-section{
+    align-self: center;
+    margin: 100px 0;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px 0;
+    color: #E5E7EB;
+    text-align: center;
 }
