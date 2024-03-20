@@ -26,8 +26,8 @@ a {
 
 .header {
     display: flex;
-    padding: 16px 50px;
-    justify-content: space-between;
+    padding: 16px 0;
+    justify-content: space-around;
 
 }
 
@@ -47,9 +47,8 @@ a {
 
 .hero-section {
     display: flex;
-    margin-top: 50px;
+    margin-top: 60px;
     gap: 50px;
-    padding-top: 40px;
     justify-content: center;
 }
 
@@ -84,4 +83,58 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.info-header {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.second-section, .third-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.info {
+    max-width: 150px;
+    text-align: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+    align-self: center;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 550px;
 }
